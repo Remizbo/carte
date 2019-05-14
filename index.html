@@ -23,7 +23,8 @@ var villes = { // seules les villes ajoutées dans ce tableau sont affichées su
   "Paris": { "lat": 48.852969, "lon": 2.349903 },
   "Brest": { "lat": 48.383, "lon": -4.500 },
   "Quimper": { "lat": 48.000, "lon": -4.100 },
-  "Bayonne": { "lat": 43.500, "lon": -1.467 }
+  "Bayonne": { "lat": 43.500, "lon": -1.467 },
+"Burbure": { "lat": 50.5333, "lon": 2.4667 }
 };
 
 window.onload = function(){
@@ -119,10 +120,27 @@ window.onload = function(){
       </div>
 
     </div>
-
+<div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Burbure" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+            <div class="card-title h5">Burbure </div>
+            <div class="card-subtitle text-gray">Très belle ville </div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2017/05/10/node_160397/28024725/public/2017/05/10/B9711971801Z.1_20170510110413_000%2BGAT91K4UU.2-0.jpg?itok=SNm6BJSj" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+           Burbure est la ville la plus mieux du monde 
+          </div>
+        </div>
+      </div>
     <p class="footer bg-secondary text-center">
   Site réalisé avec <a href="https://picturepan2.github.io/spectre/">Spectre CSS.</a>
   Carte OpenStreetMap gérée avec Leaflet (<a href="https://nouvelle-techno.fr/actualites/2018/05/11/pas-a-pas-inserer-une-carte-openstreetmap-sur-votre-site">tuto</a>)
 </p>
+    <
+
 </body>
 </html>
